@@ -8,8 +8,6 @@ x() = "x"
 y() = "y"
 p() = "p"
 
-greet() = print("The Hedge Fund Industry");
-
 include("The_Hedge_Fund_Industry.jl")
 include("my_f.jl")
 
