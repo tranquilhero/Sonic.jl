@@ -7,4 +7,4 @@
 [![Coverage](https://codecov.io/gh/AmgalanB/Sonic.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/AmgalanB/Sonic.jl)
 [![Coverage](https://coveralls.io/repos/github/AmgalanB/Sonic.jl/badge.svg?branch=master)](https://coveralls.io/github/AmgalanB/Sonic.jl?branch=master)
 
-This is a repository for ....
+This is a repository for Hedge Fund Modelling and Analysis Using Julia
