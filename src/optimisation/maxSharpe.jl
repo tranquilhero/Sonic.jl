@@ -1,9 +1,9 @@
 #File: maxSharpe.jl
-#Author: 
-#Date: 29-Jan-2014
+#Author:
+#Date: 29-June-2020
 
-#OBJECTIVE FUNCTION: MAXIMISE Sharpe Ratio 
-function fval = maxSharpe(W,R,rf,VCV)
+#OBJECTIVE FUNCTION: MAXIMISE Sharpe Ratio
+function maxSharpe(W,R,rf,VCV)
 ###########################################################################
 #INPUTS:
 #R     - returns vector
@@ -12,9 +12,5 @@ function fval = maxSharpe(W,R,rf,VCV)
 ###########################################################################
     R = R-rf;
     fval = -W'*R/sqrt(W'*VCV*W);
+    return fval
 end
-
-
-
-
-
