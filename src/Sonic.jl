@@ -7,6 +7,7 @@ using Reexport
 
 using LinearAlgebra
 using ForwardDiff
+using Plots
 export x, y
 
 x() = "x"
@@ -19,5 +20,6 @@ include("my_f.jl")
 
 export my_f, derivate_of_my_f
 export my_f1
+export fVAI, getXLData
 
 end # module
