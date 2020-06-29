@@ -8,11 +8,6 @@ using Reexport
 using LinearAlgebra
 using ForwardDiff
 using Plots
-export x, y
-
-x() = "x"
-y() = "y"
-p() = "p"
 
 include("The_Hedge_Fund_Industry.jl")
 include("Statistical_Analysis.jl")
