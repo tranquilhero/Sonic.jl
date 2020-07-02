@@ -3,7 +3,7 @@
 # Date: 29-June-2020
 using XLSX
 # GET XL DATA
-function getXLData(fname,sname)
+function getXLData(fname::AbstractString, sname::AbstractString)
     # raw data
     rwdata = xlsread(fname,sname);
     # labels
