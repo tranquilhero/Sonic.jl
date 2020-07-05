@@ -1,20 +1,19 @@
 module Sonic
 
-# Write your package code here.
 using Reexport
-@reexport using Distributions
-@reexport using DataStructures
 
-using LinearAlgebra
-using ForwardDiff
-using Plots
+@reexport using Statistical_Analysis
+@reexport using Optimisation
+@reexport using Performance_measurement
+@reexport using Classification
+@reexport using Market_risk
 
 include("The_Hedge_Fund_Industry.jl")
-include("Statistical_Analysis.jl")
-include("Optimisation.jl")
-include("Performance_measurement.jl")
-include("Classification.jl")
-include("Market_risk.jl")
+using LinearAlgebra
+using DataStructures
+using Distributions
+using ForwardDiff
+using Plots
 
 # Statistical Analysis
 export VAI # Value Added Index
@@ -31,7 +30,7 @@ export JBTest  #Jarque-Bera Test
 #  Mean-Variance Optimisation
 export minVar # MININIMISE VARIANCE
 
-# Bound Constraints 
+# Bound Constraints
 # Linear Equality Constraints
 # Sharpe Ratio Maximisation
 
@@ -48,9 +47,9 @@ export Risk-Adjusted Returns
 
 # Hedge Fund Classification
 export dendrogram
- 
+
 # Market Risk Management
-export VaR,  # Value at Risk 
+export VaR,  # Value at Risk
 export MVaR, # Modified Value at Risk
 export ES,   # Expected Shortfall
 export EVT,  # Extreme Value Theory
