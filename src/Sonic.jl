@@ -16,6 +16,26 @@ include("Performance_measurement.jl")
 include("Classification.jl")
 include("Market_risk.jl")
 
+# Statistical Analysis
+export VAI # Value Added Index
+export m1  # MEAN
+export m2  # standard deviation
+export m3  # Skew
+export m4  # Kurtosis
+# COVARIANCE AND CORRELATION
+export R2  # coefficient of determination = the square of the correlation
+# A residual plot
+export SE  # standard error
+export JBTest  #Jarque-Bera Test
+
+#  Mean-Variance Optimisation
+export minVar # MININIMISE VARIANCE
+
+# Bound Constraints 
+# Linear Equality Constraints
+# Sharpe Ratio Maximisation
+
+
 #Classification
 export my_f, derivate_of_my_f
 
@@ -24,11 +44,11 @@ export fVAI, getXLData
 #Performance Measurement
 export VAMI #diversified managed futures
 export Risk-Adjusted Returns
-export 
-export 
+
+
 # Hedge Fund Classification
 export dendrogram
-export 
+ 
 # Market Risk Management
 export VaR,  # Value at Risk 
 export MVaR, # Modified Value at Risk
