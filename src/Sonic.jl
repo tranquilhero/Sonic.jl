@@ -17,9 +17,10 @@ using Plots
 
 # Statistical Analysis
 export VAI # Value Added Index
-export m1  # MEAN
-export m2  # standard deviation
-export m3  # Skew
+export μ  # MEAN
+export σ  # standard deviation
+export ̃x  # median
+export m3  # Skewness
 export m4  # Kurtosis
 # COVARIANCE AND CORRELATION
 export R2  # coefficient of determination = the square of the correlation
@@ -42,7 +43,7 @@ export my_f1
 export fVAI, getXLData
 #Performance Measurement
 export VAMI #diversified managed futures
-export Risk-Adjusted Returns
+export Risk-Adjusted_Returns
 
 
 # Hedge Fund Classification

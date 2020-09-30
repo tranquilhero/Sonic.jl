@@ -7,7 +7,7 @@ function getXLData(fname::AbstractString, sname::AbstractString)
     # raw data
     rwdata = xlsread(fname,sname);
     # labels
-    names = rwdata(1::)
+    names = rwdata(1:1:end)
     names(1) = [];
     # dates
     dates = rwdata(2:1:)
